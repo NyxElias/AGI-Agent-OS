@@ -1,0 +1,27 @@
+spec_version: 1.0.0
+workspace_id: openclaw-controlled-example
+profile: openclaw-controlled
+protected_files:
+  - IDENTITY.md
+  - SOUL.md
+  - POLICY.md
+  - CHANGE-CONTROL.md
+required_files:
+  - AGENTS.md
+  - BOOTSTRAP.md
+  - USER.md
+  - PRINCIPAL.md
+  - POLICY.md
+  - GOALS.md
+  - STATE.md
+  - RISKS.md
+  - CHANGE-CONTROL.md
+  - AUDIT/index.md
+  - MEMORY/index.md
+append_only_targets:
+  - AUDIT/index.md
+last_validated: 2026-03-26T12:00:00+08:00
+validator_profile: openclaw-controlled
+baseline_snapshot: .snapshots/2026-03-26
+notes:
+  - controlled OpenClaw workspace example

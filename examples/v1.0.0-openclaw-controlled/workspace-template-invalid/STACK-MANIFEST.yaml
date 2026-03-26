@@ -1,0 +1,19 @@
+spec_version: 1.0.0
+workspace_id: openclaw-controlled-template-invalid
+profile: openclaw-controlled
+protected_files:
+  - IDENTITY.md
+  - SOUL.md
+append_only_targets:
+  - AUDIT/log.md
+required_files:
+  - POLICY.md
+  - CHANGE-CONTROL.md
+  - STACK-MANIFEST.yaml
+  - AUDIT/index.md
+  - MEMORY/index.md
+validation:
+  validator_profile: openclaw-controlled
+  validation_result: fail
+notes:
+  - intentionally inconsistent with CHANGE-CONTROL.md for test coverage

@@ -1,0 +1,41 @@
+spec_version: 1.0.0
+workspace_id: openclaw-controlled-template
+profile: openclaw-controlled
+workspace_status: active
+required_files:
+  - AGENTS.md
+  - BOOTSTRAP.md
+  - USER.md
+  - PRINCIPAL.md
+  - POLICY.md
+  - GOALS.md
+  - STATE.md
+  - RISKS.md
+  - CHANGE-CONTROL.md
+  - STACK-MANIFEST.yaml
+  - AUDIT/index.md
+  - MEMORY/index.md
+protected_files:
+  - IDENTITY.md
+  - SOUL.md
+  - POLICY.md
+  - CHANGE-CONTROL.md
+  - STACK-MANIFEST.yaml
+append_only_targets:
+  - AUDIT/index.md
+governance_checks:
+  require_manifest_consistency: true
+  require_change_control_for_protected: true
+  require_audit_link_on_activation: true
+  fallback_on_manifest_mismatch: advisory-only
+memory_contract:
+  governance_index: MEMORY/index.md
+  runtime_short_term_hint: memory/
+  require_provenance_tags: true
+validation:
+  validator_profile: openclaw-controlled
+  last_validated: 2026-03-26T16:00:00+08:00
+  baseline_snapshot: .snapshots/2026-03-26-controlled
+  validation_result: pass
+notes:
+  - controlled template pack intended for governed OpenClaw workspaces
