@@ -4,16 +4,16 @@
 
 - Philosophy (EN): `README.md`
 - Philosophy (ZH): `README.zh-CN.md`
-- About (EN): `ABOUT.md`
-- About (ZH): `ABOUT.zh-CN.md`
-- References: `REFERENCES.md`
-- Commercial guidance: `COMMERCIAL-GUIDELINES.md`
+- About (EN): `docs/about/ABOUT.md`
+- About (ZH): `docs/about/ABOUT.zh-CN.md`
+- References: `docs/REFERENCES.md`
+- Commercial guidance: `docs/COMMERCIAL-GUIDELINES.md`
 
 ## Current Version
 
 - `v1.0.0`
-- English: `AGI-Agent-OS-Template-Stack-v1.0.0.en.md`
-- Chinese: `AGI-Agent-OS-Template-Stack-v1.0.0.zh-CN.md`
+- English: `docs/specs/AGI-Agent-OS-Template-Stack-v1.0.0.en.md`
+- Chinese: `docs/specs/AGI-Agent-OS-Template-Stack-v1.0.0.zh-CN.md`
 - Changelog (EN): `CHANGELOG-v1.0.0.md`
 - Changelog (ZH): `CHANGELOG-v1.0.0.zh-CN.md`
 

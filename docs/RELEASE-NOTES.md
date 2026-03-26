@@ -4,8 +4,8 @@ Date: 2026-03-26
 
 ## Specs
 
-- `AGI-Agent-OS-Template-Stack-v1.0.0.en.md`
-- `AGI-Agent-OS-Template-Stack-v1.0.0.zh-CN.md`
+- `docs/specs/AGI-Agent-OS-Template-Stack-v1.0.0.en.md`
+- `docs/specs/AGI-Agent-OS-Template-Stack-v1.0.0.zh-CN.md`
 
 ## Changelog
 

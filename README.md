@@ -52,9 +52,9 @@ Evolution focus across those iterations:
 Entry points:
 
 - Specs index: `INDEX.md`
-- Current spec (EN): `AGI-Agent-OS-Template-Stack-v1.0.0.en.md`
-- Current spec (ZH): `AGI-Agent-OS-Template-Stack-v1.0.0.zh-CN.md`
-- Release notes: `RELEASE-NOTES.md`
+- Current spec (EN): `docs/specs/AGI-Agent-OS-Template-Stack-v1.0.0.en.md`
+- Current spec (ZH): `docs/specs/AGI-Agent-OS-Template-Stack-v1.0.0.zh-CN.md`
+- Release notes: `docs/RELEASE-NOTES.md`
 - Changelog: `CHANGELOG-v1.0.0.md`
 
 ## OpenClaw Quick Start
@@ -68,11 +68,11 @@ Entry points:
 
 For business use, review these files first:
 
-- `COMMERCIAL-GUIDELINES.md`
-- `COPYRIGHT.md`
+- `docs/COMMERCIAL-GUIDELINES.md`
+- `docs/COPYRIGHT.md`
 - `NOTICE`
 - `LICENSE`
-- `REFERENCES.md`
+- `docs/REFERENCES.md`
 
 Recommended production controls:
 
@@ -83,7 +83,7 @@ Recommended production controls:
 
 ## References & Citation
 
-External interoperability references are tracked in `REFERENCES.md`.
+External interoperability references are tracked in `docs/REFERENCES.md`.
 
 Citation policy:
 

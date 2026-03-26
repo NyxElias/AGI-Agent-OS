@@ -42,9 +42,9 @@ AGI Agent OS 的核心理念是：**能力必须与治理同时存在**。
 入口文件：
 
 - 规范索引：`INDEX.md`
-- 当前英文规范：`AGI-Agent-OS-Template-Stack-v1.0.0.en.md`
-- 当前中文规范：`AGI-Agent-OS-Template-Stack-v1.0.0.zh-CN.md`
-- 发布说明：`RELEASE-NOTES.md`
+- 当前英文规范：`docs/specs/AGI-Agent-OS-Template-Stack-v1.0.0.en.md`
+- 当前中文规范：`docs/specs/AGI-Agent-OS-Template-Stack-v1.0.0.zh-CN.md`
+- 发布说明：`docs/RELEASE-NOTES.md`
 - 变更日志：`CHANGELOG-v1.0.0.zh-CN.md`
 
 ## OpenClaw 快速应用
@@ -58,11 +58,11 @@ AGI Agent OS 的核心理念是：**能力必须与治理同时存在**。
 
 请优先阅读：
 
-- `COMMERCIAL-GUIDELINES.md`
-- `COPYRIGHT.md`
+- `docs/COMMERCIAL-GUIDELINES.md`
+- `docs/COPYRIGHT.md`
 - `NOTICE`
 - `LICENSE`
-- `REFERENCES.md`
+- `docs/REFERENCES.md`
 
 建议的生产治理控制：
 
@@ -73,7 +73,7 @@ AGI Agent OS 的核心理念是：**能力必须与治理同时存在**。
 
 ## 引用与标注
 
-外部参考统一记录于 `REFERENCES.md`。
+外部参考统一记录于 `docs/REFERENCES.md`。
 
 引用策略：
 
