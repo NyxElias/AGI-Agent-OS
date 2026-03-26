@@ -1,5 +1,14 @@
 # AGI Agent OS Specs Index
 
+## Project Orientation
+
+- Philosophy (EN): `README.md`
+- Philosophy (ZH): `README.zh-CN.md`
+- About (EN): `ABOUT.md`
+- About (ZH): `ABOUT.zh-CN.md`
+- References: `REFERENCES.md`
+- Commercial guidance: `COMMERCIAL-GUIDELINES.md`
+
 ## Current Version
 
 - `v1.0.0`
