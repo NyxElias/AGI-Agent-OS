@@ -1,35 +1,26 @@
-# About
+# About (English)
 
-This file defines recommended repository "About" metadata for GitHub.
+中文版本: [`ABOUT.zh-CN.md`](ABOUT.zh-CN.md)
 
 ## Description
 
 Governance-first template stack for controlled AI agent workspaces (specs, example packs, validation fixtures).
 
-## Website (Optional)
+## Suggested GitHub About Fields
 
-- Leave blank, or set to your docs site when available.
+- Description: Governance-first template stack for controlled AI agent workspaces.
+- Website: optional (set your docs URL when available)
+- Topics:
+  - agent-governance
+  - ai-agent
+  - openclaw
+  - workspace-governance
+  - change-control
+  - auditability
+  - validator
 
-## Topics (Recommended)
+## Positioning
 
-- agent-governance
-- ai-agent
-- openclaw
-- workspace-governance
-- policy-engineering
-- change-control
-- auditability
-- memory-model
-- validator
-- template-stack
-
-## Intended Audience
-
-- AI systems engineers
-- governance / safety reviewers
-- tooling and validator implementers
-
-## Repository Role
-
-- Public release channel (`main`)
-- Versioned baseline starts at `v1.0.0`
+- Public baseline release channel
+- Version-aligned bilingual specs
+- Commercial-friendly governance documentation

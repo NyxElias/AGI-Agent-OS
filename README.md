@@ -2,70 +2,63 @@
 
 Governance-first template stack for controlled AI agent workspaces.
 
-## Repository Identity
+中文说明请见: [`README.zh-CN.md`](README.zh-CN.md)
 
-- Owner: `NyxElias`
-- Canonical branch: `main`
-- Public baseline version: `v1.0.0`
-- Scope: specification + example packs + validation fixtures
+## Overview
 
-## What This Repository Provides
+This repository provides a versioned governance specification and practical fixtures for building controlled agent workspaces.
 
-- Versioned stack specifications (EN / zh-CN)
-- Controlled workspace governance baseline
-- OpenClaw-oriented controlled example pack
-- Pass/fail validation fixtures for regression testing
+It is designed for teams that need:
 
-## Quick Links
+- explicit policy and change-control contracts
+- auditable mutation and activation behavior
+- validator-friendly fixtures for pass/fail regression
+- commercially usable repository governance workflows
 
-- Specs index: `INDEX.md`
-- English spec: `AGI-Agent-OS-Template-Stack-v1.0.0.en.md`
-- Chinese spec: `AGI-Agent-OS-Template-Stack-v1.0.0.zh-CN.md`
+## Current Release
+
+- Version: `v1.0.0`
+- Default branch: `main`
+- Index: `INDEX.md`
 - Release notes: `RELEASE-NOTES.md`
-- Changelog (EN): `CHANGELOG-v1.0.0.md`
-- Changelog (ZH): `CHANGELOG-v1.0.0.zh-CN.md`
-- About metadata: `ABOUT.md`
 
-## Directory Structure
+## Repository Contents
 
-```text
-.
-├── AGI-Agent-OS-Template-Stack-v1.0.0.en.md
-├── AGI-Agent-OS-Template-Stack-v1.0.0.zh-CN.md
-├── CHANGELOG-v1.0.0.md
-├── CHANGELOG-v1.0.0.zh-CN.md
-├── INDEX.md
-├── RELEASE-NOTES.md
-├── VERSION
-└── examples/
-    └── v1.0.0-openclaw-controlled/
-        ├── *.example.*
-        ├── workspace-template/
-        ├── workspace-template-invalid/
-        └── VALIDATION-EXPECTATIONS.md
-```
+- Specs:
+  - `AGI-Agent-OS-Template-Stack-v1.0.0.en.md`
+  - `AGI-Agent-OS-Template-Stack-v1.0.0.zh-CN.md`
+- Changelog:
+  - `CHANGELOG-v1.0.0.md`
+  - `CHANGELOG-v1.0.0.zh-CN.md`
+- Controlled example pack:
+  - `examples/v1.0.0-openclaw-controlled/`
 
-## OpenClaw Application Flow
+## OpenClaw Quick Start
 
 1. Copy `examples/v1.0.0-openclaw-controlled/workspace-template/` into your OpenClaw workspace.
-2. Ensure required governance files exist (`POLICY.md`, `CHANGE-CONTROL.md`, `STACK-MANIFEST.yaml`, `AUDIT/index.md`, `MEMORY/index.md`).
+2. Confirm `POLICY.md`, `CHANGE-CONTROL.md`, `STACK-MANIFEST.yaml`, `AUDIT/index.md`, `MEMORY/index.md` exist.
 3. Validate manifest consistency before protected activation.
-4. Use `workspace-template-invalid/` + `VALIDATION-EXPECTATIONS.md` for validator regression checks.
+4. Use `workspace-template-invalid/` and `VALIDATION-EXPECTATIONS.md` for validator regression checks.
 
-## Privacy & Sanitization
+## About Metadata
 
-This public repository is sanitized for open sharing:
+- English: `ABOUT.md`
+- Chinese: `ABOUT.zh-CN.md`
 
-- no local absolute machine paths
-- no local personal identity details
-- no model-provider branding metadata in release docs
+## Commercial Repository Guidance
 
-## Release Policy
+For business-facing use, review:
 
-- Every release must create new versioned files.
-- English and Chinese specs must stay version-aligned.
-- `INDEX.md` and changelog files must be updated per release.
+- `COMMERCIAL-GUIDELINES.md`
+- `COPYRIGHT.md`
+- `NOTICE`
+- `LICENSE`
+- `REFERENCES.md`
+
+## Privacy Baseline
+
+This public baseline excludes local machine identifiers and private local environment metadata.
 
 ## License
 
-No license file is included yet. Add `LICENSE` before broader external reuse.
+Licensed under Apache License 2.0. See `LICENSE`.
